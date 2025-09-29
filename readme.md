@@ -16,7 +16,7 @@ A simple web-based chatbot interface powered by the Gemini API.
 
 2. **Set your Gemini API key:**
    - Open [`script.js`](script.js)
-   - Replace `"Your API Key"` with your actual API key in the `generateResponse` function.
+   - Replace `"API Key"` with your actual API key in the `generateResponse` function.
 
 3. **Open [`index.html`](index.html) in your browser.**
 
