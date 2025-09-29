@@ -4,7 +4,7 @@ exports.handler = async function (event) {
   }
   const { prompt } = JSON.parse(event.body);
 
-  const GEMINI_API_KEY = "process.env.GEMINI_API_KEY";
+  const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
   try {
     const response = await fetch(
